@@ -44,7 +44,7 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
-            <div className='absolute xs:bottom-10 bottom-28 md:bottom-44 w-full flex justify-center items-center z-10'>
+            <div className='absolute bottom-16 md:bottom-44 w-full flex justify-center items-center z-10'>
                 <a href='#about'>
                     <div className='w-[30px] h-[54px] rounded-3xl border-2 border-white opacity-20 flex justify-center items-start p-1'>
                         <motion.div animate={{y: [0, 28, 0]}} transition={{duration: 3.5, repeat: Infinity, repeatType: "loop"}} className='w-2 h-2 rounded-full bg-white my-1'/>
