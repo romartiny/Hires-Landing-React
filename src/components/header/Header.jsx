@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../../app/assets/icons/logo.svg'
-import Container from "../Container";
+import Container from "../Container.jsx";
 import {Link} from "react-router-dom";
 
 const Header = () => {
