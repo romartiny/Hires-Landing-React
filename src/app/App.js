@@ -1,18 +1,19 @@
 import React from "react";
 import './assets/App.css';
-import Header from "../components/header/Header.jsx";
-import Hero from "../components/hero/Hero.jsx";
+import Header from "../components/Header/Header.jsx";
+import Hero from "../components/Hero/Hero.jsx";
+import Pros from "../components/Pros/Pros";
+import Contacts from "../components/Contacts/Contacts";
+import Intake from "../components/Intake/Intake";
 
 function App() {
   return (
     <div>
-        <div>
-            <Header className={''}/>
-            <Hero />
-        </div>
-        <div className="pt-52 bg-white">
-
-        </div>
+        <Header className={''}/>
+        <Hero />
+        <Pros />
+        <Contacts />
+        <Intake />
     </div>
   );
 }
