@@ -22,7 +22,7 @@ const Hero = () => {
                         <button className="text-xl bg-transparent rounded-3xl px-4 py-2 border border-white text-white hover:bg-white hover:text-black hover:border transition duration-300" onClick={() => openBuyMenu()}>
                             Забронировать
                         </button>
-                        <button className="text-xl text-white border border-gray-300 rounded-3xl py-2 px-4 hover:bg-blue-600 transition duration-300 hover:border-blue-600 mt-3 md:mt-0">
+                        <button className="text-xl text-white border border-gray-300 rounded-3xl py-2 px-4 hover:bg-purple-600 transition duration-300 hover:border-purple-600 mt-3 md:mt-0">
                             Цены
                         </button>
                     </div>
