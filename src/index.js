@@ -1,5 +1,5 @@
 import React from 'react';
-import {createRoot} from 'react-dom/client';
+import ReactDOM from 'react-dom/client';
 import './app/assets/index.css';
 import App from './app/App';
 import {BrowserRouter} from "react-router-dom";
@@ -7,12 +7,10 @@ import {BrowserRouter} from "react-router-dom";
 const rootElement = document.getElementById('hires');
 
 if (!rootElement) {
-    throw new Error(
-        'Root element not found.'
-    );
+    throw new Error('Root element not found.');
 }
 
-const root = createRoot(rootElement);
+const root = ReactDOM.createRoot(rootElement);
 
 root.render(
   <React.StrictMode>

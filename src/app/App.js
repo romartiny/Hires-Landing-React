@@ -1,3 +1,4 @@
+import React from "react";
 import './assets/App.css';
 import Header from "../components/header/Header.jsx";
 import Hero from "../components/hero/Hero.jsx";

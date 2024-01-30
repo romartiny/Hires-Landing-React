@@ -54,7 +54,18 @@ module.exports = {
                 options: {
                     name: 'assets/videos/[contenthash:16].[ext]',
                 },
-            }
+            },
+            {
+                test: /\.(svg)$/i,
+                use: [
+                    {
+                        loader: 'file-loader',
+                        options: {
+                            name: 'assets/svgs/[contenthash:16].[ext]',
+                        },
+                    },
+                ],
+            },
         ],
     },
     plugins: [
