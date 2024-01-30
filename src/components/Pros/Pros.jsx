@@ -16,7 +16,7 @@ const Pros = () => {
                     </div>
                     <div className="flex flex-col items-center px-4 py-5 md:py-0">
                         <img src={studio ?? undefined} alt="" loading="lazy" className="w-[26rem] h-[20rem] object-cover filter brightness-75 hover:brightness-100 rounded-3xl hover:scale-105 transition duration-500"/>
-                        <h3 className="text-xl font-semibold text-center pt-3">Интерьерной студии фотосъемки и видео-интервью</h3>
+                        <h3 className="text-xl font-semibold text-center pt-3">Интерьерных студий</h3>
                     </div>
                     <div className="flex flex-col items-center px-4">
                         <img src={color ?? undefined} alt="" loading="lazy" className="w-[26rem] h-[20rem] object-cover filter brightness-75 hover:brightness-100 rounded-3xl hover:scale-105 transition duration-500"/>

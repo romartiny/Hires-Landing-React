@@ -13,7 +13,7 @@ const Header = () => {
     }
 
     return (
-        <header id="hires-header" className='fixed w-full z-10'>
+        <header id="hires-header" className='absolute w-full z-10'>
             <Container className={'flex justify-between p-5'}>
                 <Link to={'/'}>
                     <img src={logo ?? undefined} alt="Hires Studio" className=""/>

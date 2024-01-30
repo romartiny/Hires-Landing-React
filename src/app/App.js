@@ -10,7 +10,7 @@ import Subfooter from "../components/Subfooter/Subfooter.jsx";
 function App() {
   return (
     <div>
-        <Header className={''}/>
+        <Header/>
         <Hero />
         <Pros />
         <Contacts />
