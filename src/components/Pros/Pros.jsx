@@ -8,7 +8,7 @@ const Pros = () => {
     return (
         <section id="pros">
             <Container className="py-12 sm:py-16">
-                <h2 className="text-3xl font-bold tracking-tight">Мы оказываем услуги аренды</h2>
+                <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-center md:text-left">Мы оказываем услуги аренды</h2>
                 <div className="flex pt-12 flex-col md:flex-row">
                     <div className="flex flex-col items-center px-4">
                         <img src={micro ?? undefined} alt="" loading="lazy" className="w-[26rem] h-[20rem] object-cover filter brightness-75 hover:brightness-100 rounded-3xl hover:scale-105 transition duration-500"/>

@@ -5,6 +5,7 @@ import Hero from "../components/Hero/Hero.jsx";
 import Pros from "../components/Pros/Pros.jsx";
 import Contacts from "../components/Contacts/Contacts.jsx";
 import Intake from "../components/Intake/Intake.jsx";
+import Subfooter from "../components/Subfooter/Subfooter";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Pros />
         <Contacts />
         <Intake />
+        <Subfooter />
     </div>
   );
 }
