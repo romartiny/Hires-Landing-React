@@ -21,7 +21,7 @@ const Hero = () => {
                 </div>
                 <div className="video-banner relative py-0 md:py-[26rem] h-[100vh] md:h-0">
                     <div className="h-full w-full z-0 absolute overflow-hidden inset-0 pointer-events-none">
-                        <video height="1600" width="900" autoPlay loop muted
+                        <video height="1600" width="900" autoPlay loop muted playsInline
                                className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-1 w-full h-full object-cover video-blur">
                             <source src={render ?? undefined} type="video/mp4"/>
                         </video>
