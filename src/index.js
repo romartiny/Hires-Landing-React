@@ -1,11 +1,23 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import {createRoot} from 'react-dom/client';
+import './app/assets/index.css';
+import App from './app/App';
+import {BrowserRouter} from "react-router-dom";
 
-const root = ReactDOM.createRoot(document.getElementById('hires'));
+const rootElement = document.getElementById('hires');
+
+if (!rootElement) {
+    throw new Error(
+        'Root element not found.'
+    );
+}
+
+const root = createRoot(rootElement);
+
 root.render(
   <React.StrictMode>
-    <App />
+      <BrowserRouter>
+          <App />
+      </BrowserRouter>
   </React.StrictMode>
 );
