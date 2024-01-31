@@ -6,8 +6,8 @@ import Contacts from "../components/Contacts/Contacts.jsx";
 import Subfooter from "../components/Subfooter/Subfooter.jsx";
 import {IntakeAsync} from "../components/Intake/Intake.async";
 import {ProsAsync} from "../components/Pros/Pros.async";
-import Clients from "../components/Clients/Clients";
-import PodcastsKey from "../components/PodcastsKey/PodcastsKey";
+import Clients from "../components/Clients/Clients.jsx";
+import PodcastsKey from "../components/PodcastsKey/PodcastsKey.jsx";
 
 function App() {
   return (
