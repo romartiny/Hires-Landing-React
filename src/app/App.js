@@ -6,13 +6,20 @@ import Contacts from "../components/Contacts/Contacts.jsx";
 import Subfooter from "../components/Subfooter/Subfooter.jsx";
 import {IntakeAsync} from "../components/Intake/Intake.async";
 import {ProsAsync} from "../components/Pros/Pros.async";
+import Clients from "../components/Clients/Clients";
+import PodcastsKey from "../components/PodcastsKey/PodcastsKey";
 
 function App() {
   return (
     <div>
         <Header/>
         <Hero />
+
+        {/*optimization needed*/}
         <ProsAsync />
+
+        <PodcastsKey />
+        <Clients />
         <Contacts />
         <IntakeAsync />
         <Subfooter />

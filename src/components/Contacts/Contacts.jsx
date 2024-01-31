@@ -1,6 +1,7 @@
 import React from 'react';
 import Container from "../Container.jsx";
 import {Link} from "react-router-dom";
+import {contactsData} from "../../constants/data";
 
 const Contacts = () => {
 
@@ -8,10 +9,10 @@ const Contacts = () => {
         <div className="bg-black">
             <Container className="py-12 sm:py-16">
                 <div className="flex justify-between items-center flex-col md:flex-row">
-                    <h2 className="text-3xl font-bold text-white tracking-tight">Наши контакты</h2>
+                    <h2 className="text-3xl font-bold text-white tracking-tight">{contactsData.title}</h2>
                     <div className="pt-8 md:pt-0">
-                        <Link to="https://www.youtube.com/watch?v=mgaCjo1LAFc" target="_blank" rel="noopener noreferrer" className="text-white border rounded-3xl px-5 py-2 ml-0 md:ml-5 hover:bg-white hover:text-black transition duration-300">Как пройти</Link>
-                        <Link to="https://www.youtube.com/watch?v=30uR3XZfDwI" target="_blank" rel="noopener noreferrer" className="text-white border rounded-3xl px-5 py-2 ml-5 hover:bg-white hover:text-black transition duration-300">Как проехать</Link>
+                        <Link to={contactsData.runMove.link} target="_blank" rel="noopener noreferrer" className="text-white border rounded-3xl px-5 py-2 ml-0 md:ml-5 hover:bg-white hover:text-black transition duration-300">{contactsData.runMove.title}</Link>
+                        <Link to={contactsData.driveMove.link} target="_blank" rel="noopener noreferrer" className="text-white border rounded-3xl px-5 py-2 ml-5 hover:bg-white hover:text-black transition duration-300">{contactsData.driveMove.title}</Link>
                     </div>
                 </div>
                 <div className="flex flex-col pt-8">
@@ -25,26 +26,26 @@ const Contacts = () => {
                     </div>
                     <div className="flex justify-around flex-col md:flex-row pt-7">
                         <div className="group flex-1 min-w-0 py-7 px-7 border border-gray-300 drop-shadow-xl rounded-3xl hover:bg-white transition duration-300">
-                            <h3 className="text-2xl text-white font-medium group-hover:text-black transition duration-300 cursor-default ">Связь</h3>
+                            <h3 className="text-2xl text-white font-medium group-hover:text-black transition duration-300 cursor-default">{contactsData.contacts.connect.title}</h3>
                             <div className="flex flex-col pt-3">
-                                <Link to={'https://api.whatsapp.com/send?phone=79939731212'} target="_blank" rel="noopener noreferrer" className="w-max text-sm text-white group-hover:text-black duration-300">Hires Telegram</Link>
-                                <Link to={'https://t.me/hiresstud'} target="_blank" rel="noopener noreferrer" className="w-max text-sm pt-2 text-white group-hover:text-black duration-300">Hires WhatsApp</Link>
-                                <Link to={'tel:+79939731212'} target="_blank" rel="noopener noreferrer" className="w-max text-sm pt-2 text-white group-hover:text-black duration-300">+7 (993) 973-12-12</Link>
+                                <Link to={contactsData.contacts.connect.telegram.link} target="_blank" rel="noopener noreferrer" className="w-max text-sm text-white group-hover:text-black duration-300">{contactsData.contacts.connect.telegram.title}</Link>
+                                <Link to={contactsData.contacts.connect.whatsapp.link} target="_blank" rel="noopener noreferrer" className="w-max text-sm pt-2 text-white group-hover:text-black duration-300">{contactsData.contacts.connect.whatsapp.title}</Link>
+                                <Link to={contactsData.contacts.connect.phone.link} target="_blank" rel="noopener noreferrer" className="w-max text-sm pt-2 text-white group-hover:text-black duration-300">{contactsData.contacts.connect.phone.title}</Link>
                             </div>
                         </div>
                         <div className="group flex-1 min-w-0 py-7 px-7 border mx-0 my-5 md:mx-8 md:my-0 border-gray-300 drop-shadow-xl rounded-3xl hover:bg-white transition duration-300">
-                            <h3 className="text-2xl text-white font-medium group-hover:text-black transition duration-300 cursor-default">Соцсети</h3>
+                            <h3 className="text-2xl text-white font-medium group-hover:text-black transition duration-300 cursor-default">{contactsData.contacts.social.title}</h3>
                             <div className="flex flex-col pt-3">
-                                <Link to={'https://vk.com/hires.studio'} target="_blank" rel="noopener noreferrer" className="w-max text-sm text-white group-hover:text-black duration-300">ВКонтакте</Link>
-                                <Link to={'https://t.me/hiresst'} target="_blank" rel="noopener noreferrer" className="w-max text-sm pt-2 text-white group-hover:text-black duration-300">Телеграм</Link>
+                                <Link to={contactsData.contacts.social.vk.link} target="_blank" rel="noopener noreferrer" className="w-max text-sm text-white group-hover:text-black duration-300">{contactsData.contacts.social.vk.title}</Link>
+                                <Link to={contactsData.contacts.social.telegram.link} target="_blank" rel="noopener noreferrer" className="w-max text-sm pt-2 text-white group-hover:text-black duration-300">{contactsData.contacts.social.telegram.title}</Link>
                             </div>
                         </div>
                         <div
                             className="group flex-1 min-w-0 py-7 px-7 border border-gray-300 drop-shadow-xl rounded-3xl hover:bg-white transition duration-300">
-                            <h3 className="text-2xl text-white font-medium group-hover:text-black transition duration-300 cursor-default">Адрес</h3>
+                            <h3 className="text-2xl text-white font-medium group-hover:text-black transition duration-300 cursor-default">{contactsData.contacts.address.title}</h3>
                             <div className="flex flex-col pt-3">
-                                <span className="w-max text-sm pt-2 text-white group-hover:text-black duration-300 cursor-default">ПН-ВС 10:00 - 21:00</span>
-                                <Link to={'https://yandex.ru/maps/-/CDuYNKN4'} target="_blank" rel="noopener noreferrer" className="text-sm pt-2 text-white group-hover:text-black duration-300">МОСКОВСКИЙ ПРОСП., 22М, САНКТ-ПЕТЕРБУРГ ЭТАЖ 2, ОФИС 4Н</Link>
+                                <span className="w-max text-sm pt-2 text-white group-hover:text-black duration-300 cursor-default">{contactsData.contacts.address.add.time}</span>
+                                <Link to={contactsData.contacts.address.add.link} target="_blank" rel="noopener noreferrer" className="text-sm pt-2 text-white group-hover:text-black duration-300">{contactsData.contacts.address.add.road}</Link>
                             </div>
                         </div>
                     </div>

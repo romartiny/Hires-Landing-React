@@ -1,27 +1,19 @@
 import React from 'react';
 import Container from "../Container.jsx";
-import micro from '../../app/assets/images/micro.jpeg';
-import studio from '../../app/assets/images/studio.jpeg'
-import color from '../../app/assets/images/color.jpeg'
+import {prosData} from "../../constants/data";
 
 const Pros = () => {
     return (
         <section id="pros">
             <Container className="py-12 sm:py-16">
-                <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-center md:text-left">Мы оказываем услуги аренды</h2>
-                <div className="flex pt-12 flex-col md:flex-row">
-                    <div className="flex flex-col items-center px-4">
-                        <img src={micro ?? undefined} alt="" loading="lazy" className="w-[26rem] h-[20rem] object-cover filter brightness-75 hover:brightness-100 rounded-3xl hover:scale-105 transition duration-500"/>
-                        <h3 className="text-xl font-semibold text-center pt-3">Студии для записи подкастов</h3>
-                    </div>
-                    <div className="flex flex-col items-center px-4 py-5 md:py-0">
-                        <img src={studio ?? undefined} alt="" loading="lazy" className="w-[26rem] h-[20rem] object-cover filter brightness-75 hover:brightness-100 rounded-3xl hover:scale-105 transition duration-500"/>
-                        <h3 className="text-xl font-semibold text-center pt-3">Интерьерных студий</h3>
-                    </div>
-                    <div className="flex flex-col items-center px-4">
-                        <img src={color ?? undefined} alt="" loading="lazy" className="w-[26rem] h-[20rem] object-cover filter brightness-75 hover:brightness-100 rounded-3xl hover:scale-105 transition duration-500"/>
-                        <h3 className="text-xl font-semibold text-center pt-3">Студии с цветным фоном</h3>
-                    </div>
+                <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-center md:text-left">{prosData.title}</h2>
+                <div className="flex pt-12 flex-col content-between md:flex-row">
+                    {prosData.services.map((service, index) => (
+                        <div key={index} className="flex flex-col items-center px-4 pt-4 md:pt-2">
+                            <img src={service.image} alt={service.title} loading="lazy" className="w-[26rem] h-[20rem] object-cover filter brightness-75 hover:brightness-100 rounded-3xl hover:scale-105 transition duration-500"/>
+                            <h3 className="text-xl font-semibold text-center pt-3">{service.title}</h3>
+                        </div>
+                    ))}
                 </div>
             </Container>
         </section>

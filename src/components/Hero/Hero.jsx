@@ -4,6 +4,7 @@ import {Link} from "react-router-dom";
 import {motion} from "framer-motion";
 import {useDispatch} from "react-redux";
 import {setBuyOpen} from "../../redux/slices/buySlice";
+import {mainData} from "../../constants/data";
 
 const Hero = () => {
     const dispatch = useDispatch();
@@ -18,23 +19,23 @@ const Hero = () => {
                 <div
                     className="absolute z-10 top-1/2 md:top-[25rem] left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[21rem] md:w-[23rem]">
                     <div className="flex items-center flex-col">
-                        <h1 className="text-white text-4xl md:text-6xl font-bold text-center">Hires Studio</h1>
+                        <h1 className="text-white text-4xl md:text-6xl font-bold text-center">{mainData.title}</h1>
                         <span
-                            className="text-white text-sm pt-3 text-center px-8">Студия подкастов в Санкт-Петербурге</span>
+                            className="text-white text-sm pt-3 text-center px-8">{mainData.description}</span>
                         <div className="flex flex-col md:justify-evenly md:flex-row w-full pt-5 px-5">
                             <button
                                 className="text-xl bg-transparent rounded-3xl px-4 py-2 border border-white text-white hover:bg-white hover:text-black hover:border transition duration-300"
                                 onClick={() => openBuyMenu()}>
-                                Забронировать
+                                {mainData.buyButton}
                             </button>
                             <button
                                 className="text-xl text-white border border-gray-300 rounded-3xl py-2 px-4 hover:bg-purple-600 transition duration-300 hover:border-purple-600 mt-3 md:mt-0">
-                                Цены
+                                {mainData.priceButton}
                             </button>
                         </div>
                         <div className="flex justify-around items-center flex-row w-[8rem] pt-6">
                             <div className="h-8 w-7">
-                                <Link to="">
+                                <Link to={mainData.vkLink}>
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
                                          className="opacity-30 hover:opacity-100 transition duration-300">
                                         <path fill="#ffffff"
@@ -43,7 +44,7 @@ const Hero = () => {
                                 </Link>
                             </div>
                             <div className="h-7 w-7">
-                                <Link to="">
+                                <Link to={mainData.telegramLink}>
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"
                                          className="opacity-30 hover:opacity-100 transition duration-300">
                                         <path fill="#ffffff"
