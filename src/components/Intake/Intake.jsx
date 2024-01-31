@@ -15,8 +15,8 @@ const Intake = () => {
         <>
             {buy && (
                 <div className="fixed top-0 left-0 w-full h-full overflow-hidden bg-black z-40">
-                    <Container class="h-full flex items-center justify-center">
-                        <iframe className="w-full h-full" scrolling="yes" frameBorder="0" allowTransparency="true"
+                    <Container className="h-full flex items-center justify-center">
+                        <iframe className="w-full h-full" scrolling="yes"
                                 id="ms_booking_iframe" src="https://n1025717.yclients.com"></iframe>
                         <button className="absolute flex items-center justify-center w-12 h-12 bg-white bottom-7 rounded-full drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)] z-40" onClick={() => closeBuyMenu(false)}>
                             <div className="w-5 h-5 flex items-center">

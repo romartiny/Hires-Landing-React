@@ -19,8 +19,6 @@ const Contacts = () => {
                         <iframe
                             src="https://yandex.by/map-widget/v1/?ll=30.319381%2C59.920144&mode=search&oid=55375805127&ol=biz&z=15.6"
                             width="560"
-                            frameBorder="1"
-                            allowFullScreen="false"
                             style={{width: '100%', height: '100%'}}
                             className="rounded-3xl"
                         ></iframe>
