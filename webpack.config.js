@@ -72,16 +72,14 @@ module.exports = {
         new HtmlWebpackPlugin({
             template: path.join(__dirname, 'public', 'index.html'),
             filename: 'index.html',
-            // favicon: "./src/assets/favicon/favicon.ico"
+            favicon: "./src/app/assets/favicons/favicon.ico"
         }),
-        // new CopyWebpackPlugin({
-            // patterns: [
-                // { from: 'public/manifest', to: '' },
-                // { from: 'public/images', to: 'assets/images' },
-                // { from: 'public/robots', to: '' },
-                // { from: 'public/js', to: 'js/chunks' },
-            // ],
-        // })
+        new CopyWebpackPlugin({
+            patterns: [
+                { from: 'public/manifest', to: '' },
+                { from: 'public/robots', to: '' },
+            ],
+        })
     ],
     optimization: {
         minimize: true,
