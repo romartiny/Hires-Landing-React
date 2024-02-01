@@ -2,7 +2,7 @@ import React, { Suspense } from 'react';
 import {Route, Routes} from 'react-router-dom';
 import {PageLogoLoader} from "../../../components/PageLoader/PageLoader.jsx";
 import HomePage from "../../../pages/HomePage.jsx";
-import StudioLayout from "../../../components/StudioLayout";
+import StudioLayout from "../../../components/StudioLayout.jsx";
 
 
 const routeConfig = {
