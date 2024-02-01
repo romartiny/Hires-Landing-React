@@ -1,12 +1,12 @@
 import React from 'react';
-import Container from "../../Container";
+import Container from "../../Container.jsx";
 import {
     additionalStudio,
     colorPhotoVideoStudio,
     photoVideoStudio,
     pricesPodcastStudio
 } from "../../../constants/pricesData";
-import PriceLine from "./PriceLine";
+import PriceLine from "./PriceLine.jsx";
 
 const PricesList = () => {
     return (
