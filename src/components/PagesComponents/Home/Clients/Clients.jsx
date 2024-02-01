@@ -18,7 +18,7 @@ const Clients = () => {
                 <div className="flex flex-col items-center md:justify-between md:flex-row">
                     <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-center md:text-left">{clientsData.title}</h2>
                     <div className="pt-8 md:pt-0">
-                        <Link to="" className="text-black border rounded-3xl px-5 py-2 ml-0 md:ml-5 hover:bg-black hover:text-white hover:border-black transition duration-300">{clientsData.allServices}</Link>
+                        <Link to="/prices" className="text-black border rounded-3xl px-5 py-2 ml-0 md:ml-5 hover:bg-black hover:text-white hover:border-black transition duration-300">{clientsData.allServices}</Link>
                     </div>
                 </div>
                 <div className="flex pt-8 flex-col">
