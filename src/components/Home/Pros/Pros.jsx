@@ -1,6 +1,6 @@
 import React from 'react';
-import Container from "../Container.jsx";
-import {prosData} from "../../constants/data";
+import Container from "../../Container.jsx";
+import {prosData} from "../../../constants/data";
 
 const Pros = () => {
     return (

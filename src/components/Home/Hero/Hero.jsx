@@ -1,10 +1,10 @@
 import React from 'react';
-import render from '../../app/assets/videos/render.mp4'
+import render from '../../../app/assets/videos/render.mp4'
 import {Link} from "react-router-dom";
 import {motion} from "framer-motion";
 import {useDispatch} from "react-redux";
-import {setBuyOpen} from "../../redux/slices/buySlice";
-import {mainData} from "../../constants/data";
+import {setBuyOpen} from "../../../redux/slices/buySlice";
+import {mainData} from "../../../constants/data";
 
 const Hero = () => {
     const dispatch = useDispatch();

@@ -1,7 +1,7 @@
 import React from 'react';
-import Container from "../Container.jsx";
+import Container from "../../Container.jsx";
 import Faq from "../Faq/Faq.jsx";
-import {faqsHome, podcastsKey} from "../../constants/data";
+import {faqsHome, podcastsKey} from "../../../constants/data";
 
 const PodcastsKey = () => {
     return (

@@ -1,7 +1,7 @@
 import React from 'react';
-import Container from "../Container.jsx";
+import Container from "../../Container.jsx";
 import {Link} from "react-router-dom";
-import {contactsData} from "../../constants/data";
+import {contactsData} from "../../../constants/data";
 
 const Contacts = () => {
 
@@ -18,7 +18,7 @@ const Contacts = () => {
                 <div className="flex flex-col pt-8">
                     <div className="relative h-[26rem] w-full">
                         <iframe
-                            src="https://yandex.by/map-widget/v1/?ll=30.319381%2C59.920144&mode=search&oid=55375805127&ol=biz&z=15.6"
+                            src={contactsData.mapLink}
                             width="560"
                             style={{width: '100%', height: '100%'}}
                             className="rounded-3xl"
