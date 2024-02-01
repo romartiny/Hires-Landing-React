@@ -3,7 +3,10 @@ import {Outlet} from "react-router-dom";
 
 const StudioLayout = () => {
     return (
-        <Outlet/>
+        <div className="bg-black">
+            <Outlet/>
+        </div>
+
     );
 };
 

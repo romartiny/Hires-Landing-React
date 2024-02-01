@@ -4,19 +4,24 @@ import Container from "../Container.jsx";
 import {Link} from "react-router-dom";
 import {useDispatch} from "react-redux";
 import {setBuyOpen} from "../../redux/slices/buySlice";
-import {mainData, mobileNavigationData, navigationData} from "../../constants/data";
+import {mainData, mobileNavigationData} from "../../constants/homeData";
+import {navigationData} from "../../constants/navigationData";
 
-const Header = () => {
+const Header = ({classNames}) => {
     const [navbarOpen, setNavbarOpen] = useState(false);
     const dispatch = useDispatch();
 
     const openBuyMenu = (action) => {
-        dispatch(setBuyOpen(action))
-        setNavbarOpen(false);
+        dispatch(setBuyOpen(action));
+    }
+
+    const buyAndClose = (action) => {
+        dispatch(setBuyOpen(action));
+        // setNavbarOpen(!action);
     }
 
     return (
-        <header id="hires-header" className='absolute w-full z-20'>
+        <header id="hires-header" className={`${classNames} w-full z-20`}>
             <Container className={'flex justify-between p-5'}>
                 <Link to={'/'}>
                     <img src={logo ?? undefined} alt="Hires Studio" className=""/>
@@ -44,7 +49,7 @@ const Header = () => {
                                 {item.title}
                             </Link>
                         ))}
-                        <button className="w-full bg-white rounded-3xl px-6 py-2.5 border-2 mt-8 border-white text-black hover:bg-transparent hover:text-white hover:border-2 transition duration-300" onClick={() => openBuyMenu(true)}>{mainData.buyButton}
+                        <button className="w-full bg-white rounded-3xl px-6 py-2.5 border-2 mt-8 border-white text-black hover:bg-transparent hover:text-white hover:border-2 transition duration-300" onClick={() => buyAndClose(true)}>{mainData.buyButton}
                         </button>
                         <Link to={'/'} className="flex justify-center items-center pt-12" onClick={() => setNavbarOpen(false)}>
                             <img src={logo ?? undefined} alt="Hires Studio" className="opacity-40"/>

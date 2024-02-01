@@ -15,9 +15,10 @@ function Faq(props) {
                 className="flex items-center justify-between gap-2 sm:text-lg font-semibold cursor-pointer"
             >
                 <span className="text-white font-normal md:font-medium">{props.question}</span>
-                <div className="w-4 h-4">
+                <div className="w-4 h-4 ml-3">
                     {isAccordionOpen ? (
                         <motion.svg
+                            className="w-3"
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 448 512"
                             initial={{ rotate: 0 }}
@@ -31,6 +32,7 @@ function Faq(props) {
                         </motion.svg>
                     ) : (
                         <motion.svg
+                            className="w-3"
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 448 512"
                             initial={{ rotate: 0 }}

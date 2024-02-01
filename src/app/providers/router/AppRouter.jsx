@@ -1,27 +1,19 @@
 import React, { Suspense } from 'react';
 import {Route, Routes} from 'react-router-dom';
-import {PageLogoLoader} from "../../../components/PageLoader/PageLoader.jsx";
-import HomePage from "../../../pages/HomePage.jsx";
+import {PageLoader} from "../../../components/PageLoader/PageLoader.jsx";
 import StudioLayout from "../../../components/StudioLayout.jsx";
-
-
-const routeConfig = {
-    main: {
-        path: '/',
-        element: <HomePage />
-    }
-};
-
+import {routeConfig} from "../../../constants/routerConfig";
+import {IntakeAsync} from "../../../components/Intake/Intake.async";
 
 const AppRouter = () => {
     return (
-        <Suspense fallback={<PageLogoLoader/>}>
+        <Suspense fallback={<PageLoader/>}>
             <Routes>
                 <Route path={'/'} element={<StudioLayout />}>
                     {
                         Object.values(routeConfig).map(({element, path}) => (
                             <Route key={path} path={path} element={
-                                <Suspense fallback={<PageLogoLoader />}>
+                                <Suspense fallback={<PageLoader />}>
                                     {element}
                                 </Suspense>
                             }
@@ -30,6 +22,7 @@ const AppRouter = () => {
                     }
                 </Route>
             </Routes>
+            <IntakeAsync />
         </Suspense>
     );
 };

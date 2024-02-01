@@ -1,6 +1,6 @@
 import React from 'react';
 import Container from "../Container.jsx";
-import {subfooter} from "../../constants/data";
+import {subfooter} from "../../constants/homeData";
 
 const Subfooter = () => {
     return (

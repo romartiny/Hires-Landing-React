@@ -1,10 +1,9 @@
 import React from 'react';
-import render from '../../../app/assets/videos/render.mp4'
 import {Link} from "react-router-dom";
 import {motion} from "framer-motion";
 import {useDispatch} from "react-redux";
-import {setBuyOpen} from "../../../redux/slices/buySlice";
-import {mainData} from "../../../constants/data";
+import {setBuyOpen} from "../../../../redux/slices/buySlice";
+import {mainData} from "../../../../constants/homeData";
 
 const Hero = () => {
     const dispatch = useDispatch();
@@ -21,17 +20,17 @@ const Hero = () => {
                     <div className="flex items-center flex-col">
                         <h1 className="text-white text-4xl md:text-6xl font-bold text-center">{mainData.title}</h1>
                         <span
-                            className="text-white text-sm pt-3 text-center md:px-8">{mainData.description}</span>
+                            className="w-max text-white text-sm pt-3 text-center md:px-8">{mainData.description}</span>
                         <div className="flex flex-col md:justify-evenly md:flex-row w-full pt-5 px-5">
                             <button
                                 className="text-xl bg-transparent rounded-3xl px-4 py-2 border border-white text-white hover:bg-white hover:text-black hover:border transition duration-300"
                                 onClick={() => openBuyMenu()}>
                                 {mainData.buyButton}
                             </button>
-                            <button
-                                className="text-xl text-white border border-gray-300 rounded-3xl py-2 px-4 hover:bg-purple-600 transition duration-300 hover:border-purple-600 mt-3 md:mt-0">
+                            <Link to={'/prices'}
+                                className="text-xl text-white border border-gray-300 text-center rounded-3xl py-2 px-4 hover:bg-purple-600 transition duration-300 hover:border-purple-600 mt-3 md:mt-0">
                                 {mainData.priceButton}
-                            </button>
+                            </Link>
                         </div>
                         <div className="flex justify-around items-center flex-row w-[8rem] pt-6">
                             <div className="h-8 w-7">
@@ -56,20 +55,15 @@ const Hero = () => {
                     </div>
                 </div>
                 <div className='absolute md:hidden bottom-16 md:bottom-44 w-full flex justify-center items-center z-10'>
-                    <a href='#about'>
-                        <div
-                            className='w-[30px] h-[54px] rounded-3xl border-2 border-white opacity-20 flex justify-center items-start p-1'>
-                            <motion.div animate={{y: [0, 28, 0]}}
-                                        transition={{duration: 3.5, repeat: Infinity, repeatType: "loop"}}
-                                        className='w-2 h-2 rounded-full bg-white my-1'/>
-                        </div>
-                    </a>
+                    <div className='w-[30px] h-[54px] rounded-3xl border-2 border-white opacity-20 flex justify-center items-start p-1'>
+                        <motion.div animate={{y: [0, 28, 0]}} transition={{duration: 3.5, repeat: Infinity, repeatType: "loop"}} className='w-2 h-2 rounded-full bg-white my-1'/>
+                    </div>
                 </div>
                 <div className="video-banner relative py-0 md:py-[26rem] h-[100vh] md:h-0">
                     <div className="h-full w-full z-0 absolute overflow-hidden inset-0 pointer-events-none">
                         <video height="1600" width="900" autoPlay loop muted playsInline
                                className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-1 w-full h-full object-cover video-blur">
-                            <source src={render ?? undefined} type="video/mp4"/>
+                            <source src={mainData.video ?? undefined} type="video/mp4"/>
                         </video>
                     </div>
                 </div>

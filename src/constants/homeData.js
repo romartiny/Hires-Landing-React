@@ -1,6 +1,7 @@
 import micro from '../app/assets/images/micro.png';
-import studio from '../app/assets/images/studio.png'
-import color from '../app/assets/images/color.png'
+import studio from '../app/assets/images/studio.png';
+import color from '../app/assets/images/color.png';
+import backgroundVideo from '../app/assets/videos/render.mp4';
 
 export const mainData = {
     title: 'Hires Studio',
@@ -10,31 +11,10 @@ export const mainData = {
     priceButton: 'Цены',
     telegramLink: 'https://t.me/hiresstud',
     vkLink: 'https://vk.com/hires.studio',
-    number: 'tel:+79939731212'
+    number: '+7 (993) 973-12-12',
+    numberLink: 'tel:+79939731212',
+    video: backgroundVideo
 };
-
-export const navigationData = [
-    {
-        title: 'О нас',
-        link: '/about'
-    },
-    {
-        title: 'Аренда студии',
-        link: '/studio'
-    },
-    {
-        title: 'Оборудование',
-        link: '/equipment'
-    },
-    {
-        title: 'Цены',
-        link: '/prices'
-    },
-    {
-        title: 'Контакты',
-        link: '/contacts'
-    },
-];
 
 export const mobileNavigationData = {
     telegram: {

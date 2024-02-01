@@ -1,9 +1,9 @@
 import React from 'react';
-import Container from "../../Container.jsx";
+import Container from "../../../Container.jsx";
 import {Link} from "react-router-dom";
 import {useDispatch} from "react-redux";
-import {setBuyOpen} from "../../../redux/slices/buySlice";
-import {clientsData, mainData} from "../../../constants/data";
+import {setBuyOpen} from "../../../../redux/slices/buySlice";
+import {clientsData, mainData} from "../../../../constants/homeData";
 
 const Clients = () => {
     const dispatch = useDispatch();
@@ -13,7 +13,7 @@ const Clients = () => {
     }
 
     return (
-        <section id="pros">
+        <section id="pros" className="bg-white">
             <Container className="py-12 sm:py-16">
                 <div className="flex flex-col items-center md:justify-between md:flex-row">
                     <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-center md:text-left">{clientsData.title}</h2>
