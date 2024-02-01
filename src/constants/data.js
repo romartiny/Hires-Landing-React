@@ -1,11 +1,12 @@
-import micro from '../app/assets/images/micro.jpeg';
-import studio from '../app/assets/images/studio.jpeg'
-import color from '../app/assets/images/color.jpeg'
+import micro from '../app/assets/images/micro.png';
+import studio from '../app/assets/images/studio.png'
+import color from '../app/assets/images/color.png'
 
 export const mainData = {
     title: 'Hires Studio',
     description: 'Студия подкастов в Санкт-Петербурге',
     buyButton: 'Забронировать',
+    buyIframe: 'https://n1025717.yclients.com',
     priceButton: 'Цены',
     telegramLink: 'https://t.me/hiresstud',
     vkLink: 'https://vk.com/hires.studio',
@@ -22,8 +23,8 @@ export const navigationData = [
         link: '/studio'
     },
     {
-        title: 'Под ключ',
-        link: '/key'
+        title: 'Оборудование',
+        link: '/equipment'
     },
     {
         title: 'Цены',

@@ -1,6 +1,7 @@
 import React from 'react';
 import {useDispatch, useSelector} from "react-redux";
 import {selectBuy, setBuyOpen} from "../../redux/slices/buySlice";
+import {mainData} from "../../constants/data";
 
 const Intake = () => {
     const dispatch = useDispatch();
@@ -16,7 +17,7 @@ const Intake = () => {
                 <modal id="hires-buy" className="fixed top-0 left-0 w-full h-full overflow-hidden bg-black z-40">
                     <div className="h-full flex items-center justify-center">
                         <iframe className="w-full h-full" scrolling="yes" allowTransparency="true"
-                                id="ms_booking_iframe" src="https://n1025717.yclients.com"></iframe>
+                                id="ms_booking_iframe" src={mainData.buyIframe}></iframe>
                         <button className="absolute flex items-center justify-center w-12 h-12 bg-white bottom-7 rounded-full drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)] z-40" onClick={() => closeBuyMenu(false)}>
                             <div className="w-5 h-5 flex items-center justify-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">

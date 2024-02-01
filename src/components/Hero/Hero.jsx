@@ -17,11 +17,11 @@ const Hero = () => {
         <section id="hero-studio">
             <div className="relative z-10">
                 <div
-                    className="absolute z-10 top-1/2 md:top-[25rem] left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[21rem] md:w-[23rem]">
+                    className="absolute z-10 top-1/2 md:top-[25rem] left-1/2 transform -translate-x-1/2 -translate-y-1/2 md:w-[23rem]">
                     <div className="flex items-center flex-col">
                         <h1 className="text-white text-4xl md:text-6xl font-bold text-center">{mainData.title}</h1>
                         <span
-                            className="text-white text-sm pt-3 text-center px-8">{mainData.description}</span>
+                            className="text-white text-sm pt-3 text-center md:px-8">{mainData.description}</span>
                         <div className="flex flex-col md:justify-evenly md:flex-row w-full pt-5 px-5">
                             <button
                                 className="text-xl bg-transparent rounded-3xl px-4 py-2 border border-white text-white hover:bg-white hover:text-black hover:border transition duration-300"
