@@ -49,7 +49,7 @@ const Header = ({classNames}) => {
                                 {item.title}
                             </Link>
                         ))}
-                        <button className="w-full bg-white rounded-3xl px-6 py-2.5 border-2 mt-8 border-white text-black hover:bg-transparent hover:text-white hover:border-2 transition duration-300" onClick={() => buyAndClose(true)}>{mainData.buyButton}
+                        <button className="w-full bg-white rounded-3xl px-6 py-2.5 border-2 mt-12 border-white text-black hover:bg-transparent hover:text-white hover:border-2 transition duration-300" onClick={() => buyAndClose(true)}>{mainData.buyButton}
                         </button>
                         <Link to={'/'} className="flex justify-center items-center pt-12" onClick={() => setNavbarOpen(false)}>
                             <img src={logo ?? undefined} alt="Hires Studio" className="opacity-40"/>

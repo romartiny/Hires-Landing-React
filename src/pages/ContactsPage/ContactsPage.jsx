@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from "../../components/Header/Header";
+import Header from "../../components/Header/Header.jsx";
 import ContactsBlock from "../../components/PagesComponents/Contacts/ContactsBlock.jsx";
 import Footer from "../../components/Footer/Footer.jsx";
 import Subfooter from "../../components/Subfooter/Subfooter.jsx";

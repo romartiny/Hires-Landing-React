@@ -2,7 +2,7 @@ import React from 'react';
 import Container from "../../../Container.jsx";
 import {Link} from "react-router-dom";
 import {contactsData} from "../../../../constants/homeData";
-import ContactsBlocks from "./ContactsBlocks";
+import ContactsBlocks from "./ContactsBlocks.jsx";
 
 const Contacts = () => {
 

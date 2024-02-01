@@ -1,9 +1,9 @@
 import React from 'react';
 import Header from "../../components/Header/Header.jsx";
-import Prices from "../../components/PagesComponents/Prices/Prices";
-import PricesList from "../../components/PagesComponents/Prices/PricesList";
-import Footer from "../../components/Footer/Footer";
-import Subfooter from "../../components/Subfooter/Subfooter";
+import Prices from "../../components/PagesComponents/Prices/Prices.jsx";
+import PricesList from "../../components/PagesComponents/Prices/PricesList.jsx";
+import Footer from "../../components/Footer/Footer.jsx";
+import Subfooter from "../../components/Subfooter/Subfooter.jsx";
 
 const PricesPage = () => {
     return (
