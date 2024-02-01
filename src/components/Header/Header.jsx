@@ -17,7 +17,7 @@ const Header = ({classNames}) => {
 
     const buyAndClose = (action) => {
         dispatch(setBuyOpen(action));
-        // setNavbarOpen(!action);
+        setNavbarOpen(!action);
     }
 
     return (
