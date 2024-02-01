@@ -8,7 +8,7 @@ const PodcastsKey = () => {
         <div className="bg-black">
             <Container className="py-12 sm:py-16">
                 <div className="flex justify-between items-center flex-col md:flex-row">
-                    <h2 className="text-3xl font-bold text-white tracking-tight">{podcastsKey.title}</h2>
+                    <h2 className="text-2xl text-white md:text-3xl font-bold tracking-tight text-center md:text-left">{podcastsKey.title}</h2>
                 </div>
                 <div className="flex flex-col pt-6">
                     <div className="flex flex-row pt-2 pb-4">
