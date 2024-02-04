@@ -5,10 +5,10 @@ import backgroundVideo from '../app/assets/videos/render.mp4';
 
 export const mainData = {
     title: 'Hires Studio',
-    description: 'Студия подкастов в Санкт-Петербурге',
-    buyButton: 'Забронировать',
+    description: 'Best Podcast Studio',
+    buyButton: 'Book Now',
     buyIframe: 'https://n1025717.yclients.com',
-    priceButton: 'Цены',
+    priceButton: 'Prices',
     telegramLink: 'https://t.me/hiresstud',
     vkLink: 'https://vk.com/hires.studio',
     number: '+7 (993) 973-12-12',
@@ -32,24 +32,24 @@ export const mobileNavigationData = {
 }
 
 export const podcastsKey = {
-    title: 'Подкасты под ключ 🔥',
-    description: 'Подкасты набирают все большую популярность и показали себя как эффективный инструмент продвижения бизнеса и экспертности.',
+    title: 'Turnkey Podcasts 🔥',
+    description: 'Podcasts are gaining increasing popularity and have proven to be an effective tool for promoting businesses and expertise.',
 }
 
 export const contactsData = {
-    title: 'Наши контакты',
+    title: 'Our Contacts',
     mapLink: 'https://yandex.by/map-widget/v1/?ll=30.319381%2C59.920144&mode=search&oid=55375805127&ol=biz&z=15.6',
     runMove: {
-        title: 'Как пройти',
+        title: 'How to Get There',
         link: 'https://www.youtube.com/watch?v=mgaCjo1LAFc'
     },
     driveMove: {
-        title: 'Как проехать',
+        title: 'How to Drive',
         link: 'https://www.youtube.com/watch?v=30uR3XZfDwI'
     },
     contacts: {
         connect: {
-            title: 'Связь',
+            title: 'Contact',
             telegram: {
                 title: 'Hires Telegram',
                 link: 'https://t.me/hiresstud'
@@ -64,21 +64,21 @@ export const contactsData = {
             }
         },
         social: {
-            title: 'Соцсети',
+            title: 'Social Media',
             vk: {
-                title: 'ВКонтакте',
+                title: 'VKontakte',
                 link: 'https://vk.com/hires.studio'
             },
             telegram: {
-                title: 'Телеграм',
+                title: 'Telegram',
                 link: 'https://t.me/hiresst'
             }
         },
         address: {
-            title: 'Адрес',
+            title: 'Address',
             add: {
-                time: 'ПН-ВС 10:00 - 21:00',
-                road: 'МОСКОВСКИЙ ПРОСП., 22М, САНКТ-ПЕТЕРБУРГ ЭТАЖ 2, ОФИС 4Н',
+                time: 'Mon-Sun 10:00 AM - 9:00 PM',
+                road: 'FULL ADDRESS TO STUDIO',
                 link: 'https://yandex.ru/maps/-/CDuYNKN4'
             }
         }
@@ -86,40 +86,40 @@ export const contactsData = {
 }
 
 export const clientsData = {
-    title: 'Наши услуги',
-    allServices: 'Все услуги',
+    title: 'Our Services',
+    allServices: 'All Services',
     services: {
         online: {
-            title: 'Прямая трансляция',
-            description: 'Откройте для себя новое качество прямых трансляций, используя нашу студию подкастов. У нас вы получаете уникальную возможность создавать контент высокого качества для своих прямых эфиров с нашей студией подкастов.',
+            title: 'Live Streaming',
+            description: 'Discover a new quality of live streams using our podcast studio. With us, you get a unique opportunity to create high-quality content for your live broadcasts with our podcast studio.',
             video: 'https://www.youtube.com/embed/lSYx-LODN1A?si=jHip650EtfOQYTQy'
         },
         interview: {
-            title: 'Запись видео-интервью',
-            description: 'Опыт видео-интервью на новом уровне с нашей качечественной студией подкастов. Познавайте уникальные возможности нашей студии и премиальных услуг записи видео для качественных видео-интервью прямо сейчас.',
+            title: 'Recording Video Interviews',
+            description: 'Experience video interviews at a new level with our high-quality podcast studio. Explore the unique capabilities of our studio and premium video recording services for high-quality video interviews right now.',
             video: 'https://www.youtube.com/embed/gxS4uwpi7QQ?si=-3Oiw42GF4oGRg3N'
         },
         podcast: {
-            title: 'Запись видео-подкаста',
-            description: 'Наша студия предоставляет вам возможность создать нечто уникальное с индивидуальным подходом. Начните свой творческий процесс с нашей студии и оставайтесь впечатляющими в мире видео-контента!',
+            title: 'Recording Video Podcasts',
+            description: 'Our studio provides you with the opportunity to create something unique with an individual approach. Start your creative process with our studio and stay impressive in the world of video content!',
             video: 'https://www.youtube.com/embed/cHcdBXYnRc4?si=l_wQcrSQqRCBEpSF'
         }
     },
 }
 
 export const prosData = {
-    title: 'Мы оказываем услуги аренды',
+    title: 'We Provide Rental Services',
     services: [
         {
-            title: 'Студии для записи подкастов',
+            title: 'Podcast Recording Studios',
             image: micro
         },
         {
-            title: 'Интерьерных студий',
+            title: 'Interior Studios',
             image: studio
         },
         {
-            title: 'Студии с цветным фоном',
+            title: 'Studios with Colored Backgrounds',
             image: color
         }
     ]
@@ -127,36 +127,36 @@ export const prosData = {
 
 export const faqsHome = [
     {
-        question: "Подкасты под ключ",
-        answer: "Наши услуги охватывают полный цикл – от идеи до готового продукта, обеспечивая вам всё необходимое для успешного подкастинга. Мы создаем идеальное сочетание ваших творческих замыслов и наших профессиональных ресурсов, чтобы достичь высокого качества контента. Мы также предлагаем консультации по стратегии продвижения вашего подкаста, помогая вам увеличить свою аудиторию. Наш подход к созданию подкастов направлен на формирование устойчивого и прибыльного бренда, который будет успешно существовать в мире цифровых медиа. Мы уделяем внимание деталям, чтобы каждый аспект вашего подкаста отражал вашу уникальность и привлекал внимание слушателей.",
+        question: "Turnkey Podcasts",
+        answer: "Our services cover the entire cycle – from idea to the finished product, providing you with everything needed for successful podcasting. We create the perfect blend of your creative ideas and our professional resources to achieve high-quality content. We also offer consultation on podcast promotion strategy, helping you grow your audience. Our approach to podcast creation is aimed at building a sustainable and profitable brand that will thrive in the world of digital media. We pay attention to details so that every aspect of your podcast reflects your uniqueness and captivates listeners' attention.",
     },
     {
-        question: "Создадим концепцию",
-        answer: "Наши опытные креативные специалисты помогут вам выработать уникальную концепцию подкаста, отражающую ваш стиль и встречающую интересы вашей аудитории. Мы стремимся сделать ваш подкаст неповторимым и привлекательным для широкой аудитории. В процессе создания концепции мы учитываем не только ваши предпочтения, но и тренды в индустрии, чтобы обеспечить актуальность и привлекательность контента. Наша задача - сделать так, чтобы ваш подкаст выделялся среди множества и запоминался слушателям.",
+        question: "Concept Creation",
+        answer: "Our experienced creative specialists will help you develop a unique podcast concept that reflects your style and aligns with your audience's interests. We strive to make your podcast distinctive and appealing to a broad audience. In the process of creating the concept, we consider not only your preferences but also industry trends to ensure the content's relevance and attractiveness. Our goal is to make your podcast stand out and be memorable to listeners.",
     },
     {
-        question: "Напишем сценарий",
-        answer: "Профессиональные сценаристы в нашей команде создадут скрипты, которые не только структурируют ваш контент, но и делают его увлекательным и информативным. Каждый эпизод подкаста станет уникальным и интересным для вашей аудитории. Мы также уделяем внимание читабельности и легкости восприятия сценария, чтобы обеспечить максимальное вовлечение слушателей.",
+        question: "Scriptwriting",
+        answer: "Professional scriptwriters in our team will create scripts that not only structure your content but also make it engaging and informative. Each episode of the podcast will become unique and interesting for your audience. We also focus on the readability and ease of understanding of the script to ensure maximum listener engagement.",
     },
     {
-        question: "Проведем съемку",
-        answer: "Наша современная студия оборудована по последнему слову техники, обеспечивая высококачественные съемки. Мы создаем визуально привлекательный контент, который не только удовлетворяет высоким стандартам, но и подчеркивает уникальность вашего подкаста. Наши операторы работают с высокотехнологичным оборудованием, гарантируя четкость и профессионализм в каждом кадре.",
+        question: "Conduct Shooting",
+        answer: "Our modern studio is equipped with state-of-the-art technology, ensuring high-quality filming. We create visually appealing content that not only meets high standards but also emphasizes the uniqueness of your podcast. Our operators work with high-tech equipment, guaranteeing clarity and professionalism in every frame.",
     },
     {
-        question: "Сведем материал",
-        answer: "Звукооператоры и звукорежиссеры нашей команды гарантируют высококачественное звучание вашего подкаста, добавляя профессиональности и уровня звукового воспроизведения. Мы используем передовые технологии в обработке звука, чтобы ваш подкаст звучал ярко и четко. Каждый звуковой элемент вносит вклад в общую атмосферу и восприятие контента.",
+        question: "Mixing Material",
+        answer: "Our team's sound operators and sound engineers guarantee high-quality sound for your podcast, adding professionalism and sound reproduction levels. We use advanced sound processing technologies to make your podcast sound bright and clear. Every sound element contributes to the overall atmosphere and perception of the content.",
     },
     {
-        question: "Монтируем полноценный подкаст",
-        answer: "Наши монтажные специалисты тщательно обрабатывают и монтируют ваш материал, создавая гармоничный и качественный подкаст. Наша цель - предоставить вам готовый продукт, который отличается выдающимся качеством и привлекательностью. Мы также предоставляем вам возможность участвовать в процессе монтажа, чтобы ваше видение было полностью реализовано в конечном результате.",
+        question: "Edit a Full-fledged Podcast",
+        answer: "Our editing specialists carefully process and edit your material, creating a harmonious and high-quality podcast. Our goal is to provide you with a finished product that stands out for its outstanding quality and attractiveness. We also give you the opportunity to participate in the editing process to fully realize your vision in the final result.",
     },
     {
-        question: "Нарежем короткие фрагменты",
-        answer: "Наша команда работает над выделением самых захватывающих моментов вашего подкаста, создавая короткие фрагменты, идеально подходящие для продвижения в социальных сетях. Это позволяет эффективно рекламировать ваш контент и привлекать новых слушателей. Мы оптимизируем эти фрагменты для максимальной вовлеченности аудитории, подчеркивая ключевые моменты вашего подкаста и вызывая интерес к полным выпускам.",
+        question: "Create Short Segments",
+        answer: "Our team works on highlighting the most exciting moments of your podcast, creating short segments perfect for promotion on social media. This allows effective promotion of your content and attracting new listeners. We optimize these segments for maximum audience engagement, highlighting key moments of your podcast and generating interest in full episodes.",
     }
 ];
 
 export const subfooter = {
     title: 'Hires Studio © 2024',
-    creator: 'ИП Меренков Денис Игоревич'
+    creator: 'Software Engineer'
 }

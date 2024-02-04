@@ -1,18 +1,18 @@
 export const navigationData = [
     {
-        title: 'О нас',
+        title: 'About Us',
         link: '/about'
     },
     {
-        title: 'Оборудование',
+        title: 'Equipment',
         link: '/equipment'
     },
     {
-        title: 'Цены',
+        title: 'Prices',
         link: '/prices'
     },
     {
-        title: 'Контакты',
+        title: 'Contacts',
         link: '/contacts'
     },
 ];

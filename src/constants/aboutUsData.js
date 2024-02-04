@@ -1,62 +1,50 @@
 import background from "../app/assets/images/background.png";
 
 export const aboutData = {
-    title: 'О нас',
+    title: 'About Us',
     imageBackground: background,
     welcome: {
-        title: 'Добро пожаловать в "Hires Studio" — Где Ваш Голос Превращается в Искусство Подкастинга',
-        description: 'В "Hires Studio" мы вдохновлены идеей создания подкастов нового\n' +
-            '                        уровня. Наша студия представляет собой инновационное пространство, где ваш голос, ваши идеи и\n' +
-            '                        ваша страсть превращаются в мастерски созданный контент, способный завораживать\n' +
-            '                        аудиторию.Техническое оснащение "Hires Studio" представляет собой настоящий арсенал для создания\n' +
-            '                        выдающегося контента. От передовых микрофонов до инновационных средств монтажа, мы обеспечиваем\n' +
-            '                        вас всем необходимым для того, чтобы ваш подкаст не только слышали, но и воспринимали как\n' +
-            '                        произведение искусства.',
+        title: 'Welcome to "Hires Studio" — Where Your Voice Turns into Podcasting Art',
+        description: 'At "Hires Studio," we are inspired by the idea of creating podcasts on a new level. Our studio is an innovative space where your voice, ideas, and passion transform into meticulously crafted content capable of captivating the audience. The technical equipment at "Hires Studio" is a true arsenal for creating outstanding content. From cutting-edge microphones to innovative editing tools, we provide you with everything needed for your podcast to be not only heard but also perceived as a work of art.',
     },
     mission: {
-        title: 'Наша Миссия',
-        description: 'В глубине каждого подкаста кроется уникальная история. Мы считаем,\n' +
-            '                        что каждый голос заслуживает быть услышанным, и наша миссия — сделать этот опыт подкастинга\n' +
-            '                        неповторимым и вдохновляющим. Мы стремимся быть вашими творческими союзниками, предоставляя все\n' +
-            '                        необходимое для создания подкаста, который будет выделяться среди остальных."Где Идеи\n' +
-            '                        Превращаются в Звук" — это не просто слоган. В "Hires Studio" мы поддерживаем вас с момента\n' +
-            '                        зарождения идеи до завершения проекта. Давайте вместе создадим подкаст, который станет\n' +
-            '                        неотъемлемой частью мировой аудиокультуры.'
+        title: 'Our Mission',
+        description: 'Deep within every podcast lies a unique story. We believe that every voice deserves to be heard, and our mission is to make the podcasting experience unforgettable and inspiring. We aim to be your creative allies, providing everything necessary to create a podcast that stands out among the rest. "Where Ideas Turn into Sound" is not just a slogan. At "Hires Studio," we support you from the inception of the idea to the completion of the project. Let\'s create a podcast together that becomes an integral part of the global audio culture.',
     },
     whyHires: {
-        title: 'Почему "Hires Studio"?',
+        title: 'Why "Hires Studio"?',
         data: [
             {
-                title: 'Профессионализм',
-                description: 'Наша команда объединяет профессионалов с разнообразным опытом, готовых воплотить ваши идеи в жизнь.'
+                title: 'Professionalism',
+                description: 'Our team brings together professionals with diverse experiences ready to bring your ideas to life.'
             },
             {
-                title: 'Индивидуальный Подход',
-                description: 'Мы понимаем, что каждый подкаст уникален. Мы работаем рядом с вами, чтобы понять вашу уникальность и передать ее в каждом эпизоде.'
+                title: 'Individual Approach',
+                description: 'We understand that each podcast is unique. We work closely with you to understand your uniqueness and convey it in every episode.'
             },
             {
-                title: 'Современное Оборудование',
-                description: 'Наша студия оборудована передовой техникой, обеспечивая высший стандарт вашего подкаста.'
+                title: 'Modern Equipment',
+                description: 'Our studio is equipped with cutting-edge technology, ensuring the highest standard for your podcast.'
             },
             {
-                title: 'Личное Вовлечение',
-                description: 'В каждом этапе создания подкаста мы взаимодействуем с вами лично, чтобы учесть все ваши пожелания и предложения.'
+                title: 'Personal Engagement',
+                description: 'At every stage of podcast creation, we interact with you personally to consider all your wishes and suggestions.'
             },
             {
-                title: 'Обширный Опыт',
-                description: 'Наш коллектив специалистов имеет обширный опыт в различных областях, что позволяет нам применять разнообразные подходы к созданию контента.'
+                title: 'Extensive Experience',
+                description: 'Our team of specialists has extensive experience in various fields, allowing us to apply diverse approaches to content creation.'
             },
             {
-                title: 'Индивидуальная Реакция на Обратную Связь',
-                description: 'Мы ценим ваше мнение. Ваша обратная связь — важная часть процесса создания, и мы готовы вносить коррективы, чтобы ваш подкаст был идеальным.'
+                title: 'Individual Response to Feedback',
+                description: 'We value your opinion. Your feedback is an important part of the creation process, and we are ready to make adjustments to make your podcast perfect.'
             },
             {
-                title: 'Стратегия Продвижения',
-                description: 'Мы не просто создаем подкаст, но и помогаем вам с разработкой стратегии продвижения, чтобы ваш контент был услышан и оценен.'
+                title: 'Promotion Strategy',
+                description: 'We don\'t just create a podcast but also help you develop a promotion strategy so that your content is heard and appreciated.'
             },
             {
-                title: 'Творческое Союзничество',
-                description: 'В "Hires Studio" мы не просто предоставляем услуги. Мы становимся вашими творческими союзниками, готовыми воплотить ваши идеи в реальность.'
+                title: 'Creative Partnership',
+                description: 'At "Hires Studio," we don\'t just provide services. We become your creative partners, ready to bring your ideas to reality.'
             }
         ],
     }

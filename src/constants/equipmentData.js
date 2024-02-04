@@ -1,59 +1,53 @@
 import image_equipment from "../app/assets/images/image-equipment.jpeg";
 
 export const equipmentData = {
-    title: 'Наше оборудование',
-    description: 'Наш акустический арсенал — это не просто современные микрофоны и наушники. Это\n' +
-        '                    искусство звука,\n' +
-        '                    созданное для того, чтобы каждый ваш резонанс и нюанс были зафиксированы с максимальной точностью. В\n' +
-        '                    "Hires Studio" мы верим, что звук — ключ к ваши аудитории. В нашей студии используется передовое\n' +
-        '                    программное обеспечение и оборудование. Мы следим за последними технологическими трендами, чтобы\n' +
-        '                    предоставлять вам современные инструменты для монтажа, обработки звука и создания впечатляющих\n' +
-        '                    звуковых эффектов.',
+    title: 'Our Equipment',
+    description: 'Our acoustic arsenal is not just modern microphones and headphones. It is the art of sound, created to capture every nuance and resonance with maximum precision. At "Hires Studio," we believe that sound is the key to your audience. Our studio uses advanced software and equipment. We keep up with the latest technological trends to provide you with modern tools for editing, sound processing, and creating impressive sound effects.',
     image: image_equipment,
     data: [
         {
-            title: 'Камера FUJIFILM X-T3 (3 шт)',
-            description: 'FUJIFILM X-T3 - это камера с высоким качеством изображения благодаря 26,1-мегапиксельному сенсору, процессору обработки изображений X-Processor 4, улучшенной системе автофокусировки с 425 фазовыми точками, возможности съемки видео в 4K.',
+            title: 'FUJIFILM X-T3 Cameras (3 units)',
+            description: 'The FUJIFILM X-T3 camera provides high-quality images with a 26.1-megapixel sensor, X-Processor 4 image processing, an improved autofocus system with 425 phase-detection points, and 4K video recording capability.',
         },
         {
-            title: 'Видеоштатив Falcon Eyes (3 шт)',
-            description: 'Видеоштатив Falcon Eyes обладает прочной конструкцией, что обеспечивает стабильность и надежность во время съемки. Кроме того, его регулируемая высота и надежные фиксации позволяют легко настроить желаемое положение камеры. Видеоштатив также оснащен гидравлическими головками, которые обеспечивают плавные движения при съемке видео.',
+            title: 'Falcon Eyes Video Tripod (3 units)',
+            description: 'The Falcon Eyes video tripod has a sturdy construction, ensuring stability and reliability during shooting. Its adjustable height and secure fastenings make it easy to set up the desired camera position. The video tripod also features hydraulic heads for smooth video shooting movements.',
         },
         {
-            title: 'Видеосвет Amaran 100x, 200x Godox SL60',
-            description: 'Благодаря своей большой мощности и регулируемой яркости, данные модели видеосвета идеально подходят для профессиональных видео- и фотосъемок в различных условиях.',
+            title: 'Amaran 100x, 200x Godox SL60 Video Lights',
+            description: 'With their high power and adjustable brightness, these models of video lights are ideal for professional video and photo shoots in various conditions.',
         },
         {
-            title: 'RGB осветители Godox TL30 (4 шт)',
-            description: 'RGB осветители Godox TL30 позволяют создавать разнообразные световые эффекты и настроить освещение в соответствии с требованиями съемки, добавляя креативность и уникальность визуальным проектам.',
+            title: 'Godox TL30 RGB Lights (4 units)',
+            description: 'Godox TL30 RGB lights allow for creating various lighting effects and adjusting illumination according to the shooting requirements, adding creativity and uniqueness to visual projects.',
         },
         {
-            title: 'Микрофоны Shure Sm7b на компактных стойках (3 шт)',
-            description: 'Микрофоны Shure Sm7b, благодаря встроенной подавлению шумов и вибраций, микрофон идеально подходит для студийной записи.',
+            title: 'Shure Sm7b Microphones on Compact Stands (3 units)',
+            description: 'Shure Sm7b microphones, with built-in noise and vibration suppression, are ideal for studio recording.',
         },
         {
-            title: 'Предусилитель T-Decor (1 шт)',
-            description: 'Предусилитель t-decor обеспечивает высокую чувствительность, широкий диапазон усиления и низкий уровень шума, что делает его идеальным для записи голоса в высоком качестве.',
+            title: 'T-Decor Preamplifier (1 unit)',
+            description: 'The T-Decor preamplifier provides high sensitivity, a wide gain range, and low noise, making it perfect for high-quality voice recording.',
         },
         {
-            title: 'Предусилитель DBX 286s (2 шт)',
-            description: 'Предусилитель DBX 286s обеспечивает высокое качество звука, благодаря технологии обработки сигнала и встроенному компрессору, эквалайзеру, декессору и усилителю.',
+            title: 'DBX 286s Preamplifier (2 units)',
+            description: 'The DBX 286s preamplifier ensures high sound quality with signal processing technology and built-in compressor, equalizer, de-esser, and amplifier.',
         },
         {
-            title: 'Звуковая карта Solid State Logic SSL 2',
-            description: 'Звуковая карта Solid State Logic SSL 2 обеспечивает отличное звучание благодаря студийному качеству записи и воспроизведения, высокой частоте дискретизации и низкому уровню шума.',
+            title: 'Solid State Logic SSL 2 Audio Interface',
+            description: 'The Solid State Logic SSL 2 audio interface provides excellent sound quality with studio-grade recording and playback, high sample rate, and low noise level.',
         },
         {
-            title: 'Петличная радиосистема Sennheiser G3 EW100',
-            description: 'Петличная радиосистема Sennheiser G3 EW100 обеспечивает высокое качество звука, надежную связь и удобство, а также имеет широкий диапазон частот.',
+            title: 'Sennheiser G3 EW100 Lavalier Wireless System',
+            description: 'The Sennheiser G3 EW100 lavalier wireless system ensures high sound quality, reliable communication, convenience, and a wide frequency range.',
         },
         {
-            title: 'Рекордер Zoom H6',
-            description: 'Рекордер Zoom H6, оборудованный шестью входами для микрофонов, он обеспечивает высокое качество звука и гибкость при записи с различных источников.',
+            title: 'Zoom H6 Recorder',
+            description: 'The Zoom H6 recorder, equipped with six microphone inputs, provides high-quality sound and flexibility when recording from various sources.',
         },
         {
-            title: 'Студийная вспышка Godox MS200V',
-            description: 'Студийная вспышка Godox MS200V обеспечивает высокую мощность и точное распределение света.',
+            title: 'Godox MS200V Studio Flash',
+            description: 'The Godox MS200V studio flash provides high power and precise light distribution.',
         }
     ],
 }
