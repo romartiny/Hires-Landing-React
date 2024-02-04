@@ -24,14 +24,14 @@ const Header = ({classNames}) => {
         <header id="hires-header" className={`${classNames} w-full z-20`}>
             <Container className={'flex justify-between p-5'}>
                 <Link to={'/'}>
-                    <img src={logo ?? undefined} alt="Hires Studio" className=""/>
+                    <img src={logo ?? undefined} alt="Hires Studio" className="cursor-pointer"/>
                 </Link>
                 <nav className="items-center hidden lg:flex">
                     {navigationData.map((item, index) => (
-                        <Link key={index} to={item.link} className="text-white px-5 hover:text-gray-400 transition duration-300">{item.title}</Link>
+                        <Link key={index} to={item.link} className="text-white px-5 hover:text-gray-400 transition duration-300 cursor-pointer">{item.title}</Link>
                     ))}
                 </nav>
-                <button className="hidden lg:block bg-white rounded-3xl px-6 py-2.5 border-2 border-white text-black hover:bg-transparent hover:text-white hover:border-2 transition duration-300" onClick={() => openBuyMenu(true)}>{mainData.buyButton}
+                <button className="hidden lg:block bg-white rounded-3xl px-6 py-2.5 border-2 border-white text-black hover:bg-transparent hover:text-white hover:border-2 transition duration-300 cursor-pointer" onClick={() => openBuyMenu(true)}>{mainData.buyButton}
                 </button>
                 <button className={`${navbarOpen ? "fixed mx-4 my-5 mr-4 sm:mr-8" : "relative"} lg:hidden flex top-0 right-0 z-20 w-10 h-10 text-white focus:outline-none`} onClick={() => setNavbarOpen(!navbarOpen)}>
                     <div className="absolute w-5 transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2">

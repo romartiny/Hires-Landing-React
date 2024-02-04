@@ -34,7 +34,7 @@ const Hero = () => {
                         </div>
                         <div className="flex justify-around items-center flex-row w-[8rem] pt-6">
                             <div className="h-8 w-7">
-                                <Link to={mainData.vkLink}>
+                                <Link to={mainData.vkLink} title={mainData.vkLink}>
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
                                          className="opacity-30 hover:opacity-100 transition duration-300">
                                         <path fill="#ffffff"
@@ -43,7 +43,7 @@ const Hero = () => {
                                 </Link>
                             </div>
                             <div className="h-7 w-7">
-                                <Link to={mainData.telegramLink}>
+                                <Link to={mainData.telegramLink} title={mainData.telegramLink}>
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"
                                          className="opacity-30 hover:opacity-100 transition duration-300">
                                         <path fill="#ffffff"
