@@ -78,7 +78,7 @@ module.exports = {
             patterns: [
                 { from: 'public/manifest', to: '' },
                 { from: 'public/robots', to: '' },
-                { from: 'public/images', to: '' },
+                { from: 'public/images', to: 'assets/images/' },
             ],
         })
     ],
