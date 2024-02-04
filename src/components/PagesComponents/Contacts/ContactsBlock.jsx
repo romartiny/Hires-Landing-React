@@ -8,7 +8,7 @@ const ContactsBlock = () => {
     return (
         <section id="contacts" className="bg-black">
             <Container className="py-12 sm:py-16">
-                <h2 className="text-3xl font-bold text-white tracking-tight text-center">Контакты</h2>
+                <h2 className="text-3xl font-bold text-white tracking-tight text-center">{contactsData.title}</h2>
                 <div className="flex justify-center items-center pt-8 pb-7 md:mt0">
                     <Link to={contactsData.runMove.link} target="_blank" rel="noopener noreferrer"
                           className="text-white border rounded-3xl px-5 py-2 ml-0 hover:bg-white hover:text-black transition duration-300">{contactsData.runMove.title}</Link>
